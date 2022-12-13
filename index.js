@@ -8,6 +8,8 @@ const app = express();
 //Enable body parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+//Set static folder 'public'
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/openai", require("./routes/openaiRoutes"));
