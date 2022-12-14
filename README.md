@@ -5,9 +5,15 @@ We can get the Documentation on [Github repository for OpenAI][1]
 ## Backend
 
 - Obtain API Key for OpenAI and complete `.env` file
-- Configure the routes at `openaiRoures.js` and the controller at `openaiController.js`
+- Configure the routes at `openaiRoutes.js` and the controller at `openaiController.js`
 
 ## Frontend
+
+### HTML
+
+HTML code consists basically of one main block for the image description and size to be entered and a secondary section in which we'll see the AI generated image coming from `OpenAI`
+
+Also we added a navbar just for easy access to the Documentation
 
 ### Styles
 
